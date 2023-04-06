@@ -30,7 +30,7 @@ function Home() {
                 <div className="lg:text-2xl text-lg flex flex-col gap-2">
                   <div>Besides coding, I'm interested in botany, photoshop
                   manipulation and photography!</div>
-                  <div className="text-lg hover:cursor-pointer hover:text-[#9C3D54]"><button  onClick={()=>navigate("/about")}>*here is more about me</button> </div>
+                  <div className="lg:text-lg text-base hover:cursor-pointer hover:text-[#9C3D54]"><button  onClick={()=>navigate("/about")}>*here is more about me</button> </div>
                 </div>
                 <div>
                   <img
