@@ -19,7 +19,7 @@ function Home() {
       <div className="flex flex-col  font-nunito text-[#F7F5EB]">
         <div className="flex lg:flex-row flex-col font-nunito mt-10 self-center lg:gap-8 gap-10">
           <div className="bg-[#539165] text-[#F8F5E4] tracking-wider font-bold lg:w-[34em] w-[18em] p-4 py-3 rounded-[1em] transform transition duration-500 hover:scale-110">
-            <div className="flex flex-col lg:gap-10 gap-6 ml-6 mt-6 lg:m-4 m-6">
+            <div className="flex flex-col lg:gap-8 gap-6 ml-6 mt-6 lg:m-4 m-6">
               <div className="lg:text-4xl text-2xl font-bold tracking-wider">
                 Hi, I'm Şeyma!
               </div>
@@ -27,9 +27,10 @@ function Home() {
                 A frontend web developer with urban planning background.{" "}
               </div>
               <div className="flex lg:flex-row flex-col">
-                <div className="lg:text-2xl text-lg">
-                  Besides coding, I'm interested in botany, photoshop
-                  manipulation and photography!
+                <div className="lg:text-2xl text-lg flex flex-col gap-2">
+                  <div>Besides coding, I'm interested in botany, photoshop
+                  manipulation and photography!</div>
+                  <div className="text-lg hover:cursor-pointer hover:text-[#9C3D54]"><button  onClick={()=>navigate("/about")}>*here is more about me</button> </div>
                 </div>
                 <div>
                   <img
