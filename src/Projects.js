@@ -6,6 +6,7 @@ import healingImg from "./assets/healing.jpg";
 import movieImg from "./assets/movie.jpg";
 import madlibsImg from "./assets/madlibs.jpg";
 import minionsImg from "./assets/minions.jpg";
+import personalsite from "./assets/personal.jpg"
 import ProjectCard from './ProjectCard';
 
 const projects = [
@@ -13,15 +14,23 @@ const projects = [
     title: "Online Therapist",
     imgSrc: healingImg,
     description:
-      "This project is the capstone project of Recoded bootcamp and it was developed with a group of 5 people. The draft of the project was given in Figma and consisted of 30 pages. We created a responsive online therapist site in 7 weeks using React, Firebase, Redux, JEST, Tailwind and necessary technologies. The project can be experienced live on Netlify.",
+      "A platform that brings together therapists and people who want support from therapists. It was created in 7 weeks using React, Firebase, Redux, JEST, Tailwind and necessary technologies. After login/signup, users can book appoinment from therapists. There are 2 options for appoinment; users can choose therapists directly or they can filter the therapists with some questions. In addition, everyone can see blog posts and sign up to monthly newsletter list.",
     demoLink: "https://symphonious-snickerdoodle-6f2481.netlify.app/",
     codeLink: "https://github.com/SEYMA-MENAR/RE-Minded",
+  },
+  {
+    title: "Personal Website",
+    imgSrc: personalsite,
+    description:
+      "I think that making my own portfolio page is also a project, so I wanted to add it here. My goal in this project was to create a page where I reflect myself. You can enter the vicious circle by pressing the demo button 😁",
+    demoLink: "https://seymademir.netlify.app/",
+    codeLink: "https://github.com/symys/symdmr",
   },
   {
     title: "Task Manager",
     imgSrc: todoImg,
     description:
-      "I aimed to learn React and Redux usage in depth with this project. Used technologies are React, Redux and Tailwind. The tasks are kept in 4 different categories. categories are taken from Eisenhover matrix and users can filter tasks by categories. They can add a new task or delete a task. For those who want to learn the Eisenhover matrix in detail, there is a See Groups button on the main page and it leads to a page describing the matrix. In addition, summary information has been added to the category filtering buttons in the section where the tasks are added.",
+      "I aimed to learn React and Redux usage in depth with this project. Used technologies are React, Redux and Tailwind. The tasks are kept in 4 different categories. Categories are taken from Eisenhover matrix and users can filter tasks by categories. They can add a new task or delete a task. For those who want to learn the Eisenhover matrix in detail, there is a See Groups button on the main page and it leads to a page describing the matrix. In addition, summary information has been added to the category filtering buttons in the section where the tasks are added.",
     demoLink: "https://effervescent-longma-4868ea.netlify.app/",
     codeLink: "https://github.com/symys/todoapp",
   },
@@ -37,7 +46,7 @@ const projects = [
     title: "Movie Project",
     imgSrc: movieImg,
     description:
-      "It is a Re:Coded group project with 4 people. It aims to teach DOM manipulation deeply and get data with fetching in JS. Used technologies are JS, HTML, CSS. There is a welcome page at the entrance. In the home page users can see popular films from The Movie Database API. Films can be listed according to their genres, popularity, rated. In addition to these users can list actors. Every actor has an actor detail page which displays biography and films of actor. Like actor detail page, every film has film detail page which contains film details, overview, production companies, actors, trailer and similar films.",
+      "It aims to teach DOM manipulation deeply and get data with fetching in JS. Used technologies are JS, HTML, CSS. There is a welcome page at the entrance. In the home page users can see popular films from The Movie Database API. Films can be listed according to their genres, popularity, rated. In addition to these users can list actors. Every actor has an actor detail page which displays biography and films of actor. Like actor detail page, every film has film detail page which contains film details, overview, production companies, actors, trailer and similar films.",
     demoLink:
       "https://recoded-spark-turkey-2022.github.io/movie-project-playing-our-way/",
     codeLink:
@@ -47,7 +56,7 @@ const projects = [
     title: "Mad Libs Game",
     imgSrc: madlibsImg,
     description:
-      "It is a Re:Coded group project. Used technologies are HTML, CSS and JS. The logic is to complete the given story with filling the blanks to your imagination. When you open the project page you will see 2 same stories with blanks. You can write your own story with editing left paragraph. During editing proccess you will see the changes in the right paragraph synchronously. If you want to reset the game you should just click the “Reset” button top of the editing part.",
+      "Used technologies are HTML, CSS and JS. The logic is to complete the given story with filling the blanks to your imagination. When you open the project page you will see 2 same stories with blanks. You can write your own story with editing left paragraph. During editing proccess you will see the changes in the right paragraph synchronously. If you want to reset the game you should just click the “Reset” button top of the editing part.",
     demoLink:
       "https://recoded-spark-turkey-2022.github.io/mad-libs-los-galacticos/",
     codeLink:
@@ -64,6 +73,7 @@ const projects = [
 
 
 function Projects() {
+  window.scrollTo(0, 0);
   const navigate = useNavigate();
 
   return (
