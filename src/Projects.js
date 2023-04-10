@@ -7,6 +7,7 @@ import movieImg from "./assets/movie.jpg";
 import madlibsImg from "./assets/madlibs.jpg";
 import minionsImg from "./assets/minions.jpg";
 import personalsite from "./assets/personal.jpg"
+import hoomie from "./assets/hoomieproject.jpg"
 import ProjectCard from './ProjectCard';
 
 const projects = [
@@ -25,6 +26,14 @@ const projects = [
       "I think that making my own portfolio page is also a project, so I wanted to add it here. My goal in this project was to create a page where I reflect myself. You can enter the vicious circle by pressing the demo button 😁",
     demoLink: "https://seymademir.netlify.app/",
     codeLink: "https://github.com/symys/symdmr",
+  },
+  {
+    title: "Hoomie Shop",
+    imgSrc: hoomie,
+    description:
+      "*Currently I'm working on this project using React, Redux Toolkit, Tailwind, Firebase and SwiperJS. It will be a e-commerce site. The base design is from Behance but I changed some parts of it.",
+    demoLink: "https://verdant-liger-e4b037.netlify.app/",
+    codeLink: "https://github.com/symys/hoomieproject",
   },
   {
     title: "Task Manager",
