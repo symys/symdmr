@@ -4,7 +4,7 @@ import { Spotify } from "react-spotify-embed";
 import behance from "./assets/behancee.png";
 import linkedin from "./assets/linked.png";
 import gmail from "./assets/mail.png";
-import medium from "./assets/medium.png";
+import freecodecamp from "./assets/freecodecamp.png";
 import spotlight from "./assets/spotlight.png";
 import flower from "./assets/flowers.png";
 import bye from "./assets/byee.png";
@@ -19,7 +19,7 @@ function Home() {
       <div className="flex flex-col  font-nunito text-[#F7F5EB]">
         <div className="flex lg:flex-row flex-col font-nunito mt-10 self-center lg:gap-8 gap-10">
           <div className="bg-[#539165] text-[#F8F5E4] tracking-wider font-bold lg:w-[34em] w-[18em] p-4 py-3 rounded-[1em] transform transition duration-500 hover:scale-110">
-            <div className="flex flex-col lg:gap-8 gap-6 ml-6 mt-6 lg:m-4 m-6">
+            <div className="flex flex-col lg:gap-8 gap-6 ml-6 mt-6 lg:m-4 m-6  cursor-pointer"  onClick={()=>navigate("/about")}>
               <div className="lg:text-4xl text-2xl font-bold tracking-wider">
                 Hi, I'm Şeyma!
               </div>
@@ -68,15 +68,15 @@ function Home() {
 
               <div className="flex lg:justify-evenly p-2 gap-6">
                 <a
-                  href="https://medium.com/@seymademir"
+                  href="https://www.freecodecamp.org/seymademir"
                   target="_blank"
                   rel="noreferrer"
                 >
                   <div className="flex lg:h-[10em] h-[5em] transform transition duration-500 hover:scale-110">
                     <img
-                      src={medium}
-                      alt="mediumlogo"
-                      href="https://medium.com/@seymademir"
+                      src={freecodecamp}
+                      alt="freecodecamplogo"
+                      href="https://www.freecodecamp.org/seymademir"
                       target="_blank"
                       className="cursor-pointer"
                     ></img>
