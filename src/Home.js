@@ -1,10 +1,10 @@
 import React from "react";
-import {useNavigate} from "react-router-dom"
+import {useNavigate, Link} from "react-router-dom"
 import { Spotify } from "react-spotify-embed";
 import behance from "./assets/behancee.png";
 import linkedin from "./assets/linked.png";
 import gmail from "./assets/mail.png";
-import freecodecamp from "./assets/freecodecamp.png";
+import resumelogo from "./assets/resumelogo.png";
 import spotlight from "./assets/spotlight.png";
 import flower from "./assets/flowers.png";
 import bye from "./assets/byee.png";
@@ -19,7 +19,7 @@ function Home() {
       <div className="flex flex-col  font-nunito text-[#F7F5EB]">
         <div className="flex lg:flex-row flex-col font-nunito mt-10 self-center lg:gap-8 gap-10">
           <div className="bg-[#539165] text-[#F8F5E4] tracking-wider font-bold lg:w-[34em] w-[18em] p-4 py-3 rounded-[1em] transform transition duration-500 hover:scale-110">
-            <div className="flex flex-col lg:gap-8 gap-6 ml-6 mt-6 lg:m-4 m-6  cursor-pointer"  onClick={()=>navigate("/about")}>
+            <div className="flex flex-col lg:gap-8 gap-6 ml-6 mt-6 lg:m-4 m-6  cursor-pointer" >
               <div className="lg:text-4xl text-2xl font-bold tracking-wider">
                 Hi, I'm Şeyma!
               </div>
@@ -30,7 +30,7 @@ function Home() {
                 <div className="lg:text-2xl text-lg flex flex-col gap-2">
                   <div>Besides coding, I'm interested in botany, photoshop
                   manipulation and photography!</div>
-                  <div className="lg:text-lg text-base hover:cursor-pointer hover:text-[#9C3D54]"><button  onClick={()=>navigate("/about")}>*here is more about me</button> </div>
+                  
                 </div>
                 <div>
                   <img
@@ -67,21 +67,15 @@ function Home() {
               </div>
 
               <div className="flex lg:justify-evenly p-2 gap-6">
-                <a
-                  href="https://www.freecodecamp.org/seymademir"
-                  target="_blank"
-                  rel="noreferrer"
-                >
+                <Link to="/about">
                   <div className="flex lg:h-[10em] h-[5em] transform transition duration-500 hover:scale-110">
                     <img
-                      src={freecodecamp}
-                      alt="freecodecamplogo"
-                      href="https://www.freecodecamp.org/seymademir"
-                      target="_blank"
+                      src={resumelogo}
+                      alt="more about me"
                       className="cursor-pointer"
-                    ></img>
+                    />
                   </div>
-                </a>
+                </Link>
                 <a
                   href="https://www.behance.net/seymademir"
                   target="_blank"

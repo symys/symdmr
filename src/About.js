@@ -50,7 +50,7 @@ function About() {
         onClick={() => navigate(-1)}
         class=" bg-gradient-to-r from-purple-400 via-purple-350 to-blue-300 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-purple-100 dark:focus:ring-purple-400  rounded-lg  lg:px-5 px-2 py-2.5 w-[10em] text-center mr-2 mb-2 self-center text-[#111827] font-extrabold lg:text-xl text-medium uppercase"
       >
-        Go Back Home
+        Back to Home
       </button>
     </div>
   );
