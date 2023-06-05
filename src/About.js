@@ -35,7 +35,7 @@ function About() {
           </div>
         </div>
         <a
-          href="https://drive.google.com/file/d/1AvXUoNfiACbLWbPjsICr8cVROn04UlIb/view?usp=sharing"
+          href="https://drive.google.com/file/d/1p1km1HttD5qz8_Gs3fQzNgEOzv7tDxJ5/view?usp=sharing"
           target="blank" rel="noreferrer" className="flex flex-col self-center hover:cursor-pointer hover:brightness-150"
         >
           <div >
