@@ -28,10 +28,10 @@ const projects = [
     codeLink: "https://github.com/symys/symdmr",
   },
   {
-    title: "Hoomie Shop",
+    title: "🛠️ Hoomie Shop",
     imgSrc: hoomie,
     description:
-      "*Currently I'm working on this project using React, Redux Toolkit, Tailwind, Firebase and SwiperJS. It will be a e-commerce site. The base design is from Behance but I changed some parts of it.",
+      "Currently I'm working on this project using React, Redux Toolkit, Tailwind, Firebase and SwiperJS. It will be a e-commerce site. The base design is from Behance but I changed some parts of it.",
     demoLink: "https://verdant-liger-e4b037.netlify.app/",
     codeLink: "https://github.com/symys/hoomieproject",
   },
@@ -72,7 +72,7 @@ const projects = [
       "https://github.com/Recoded-Spark-Turkey-2022/mad-libs-los-galacticos",
   },
   {
-    title: "Minion Toys Shop",
+    title: "🛠️ Minion Toys Shop",
     imgSrc: minionsImg,
     description: "*Currently I'm working on this project using Angular",
     demoLink: "https://roaring-khapse-667b6e.netlify.app/",
