@@ -7,8 +7,9 @@ import movieImg from "./assets/movie.jpg";
 import madlibsImg from "./assets/madlibs.jpg";
 import minionsImg from "./assets/minions.jpg";
 import personalsite from "./assets/personal.jpg"
-import hoomie from "./assets/hoomieproject.jpg"
+import hoomie from "./assets/hoomiee.PNG"
 import ProjectCard from './ProjectCard';
+import weathery from './assets/weather app.PNG'
 
 const projects = [
   {
@@ -20,6 +21,14 @@ const projects = [
     codeLink: "https://github.com/SEYMA-MENAR/RE-Minded",
   },
   {
+    title: "Hoomie Shop",
+    imgSrc: hoomie,
+    description:
+      "I used on this project using React, Redux Toolkit, Redux-Persist, Tailwind, Firebase, Framer Motion and SwiperJS. It is an online shopping site. The base design is from Behance but I changed some parts of it.",
+    demoLink: "https://verdant-liger-e4b037.netlify.app/",
+    codeLink: "https://github.com/symys/hoomieproject",
+  },
+  {
     title: "Personal Website",
     imgSrc: personalsite,
     description:
@@ -28,20 +37,20 @@ const projects = [
     codeLink: "https://github.com/symys/symdmr",
   },
   {
-    title: "🛠️ Hoomie Shop",
-    imgSrc: hoomie,
-    description:
-      "Currently I'm working on this project using React, Redux Toolkit, Tailwind, Firebase and SwiperJS. It will be a e-commerce site. The base design is from Behance but I changed some parts of it.",
-    demoLink: "https://verdant-liger-e4b037.netlify.app/",
-    codeLink: "https://github.com/symys/hoomieproject",
-  },
-  {
     title: "Task Manager",
     imgSrc: todoImg,
     description:
       "I aimed to learn React and Redux usage in depth with this project. Used technologies are React, Redux and Tailwind. The tasks are kept in 4 different categories. Categories are taken from Eisenhover matrix and users can filter tasks by categories. They can add a new task or delete a task. For those who want to learn the Eisenhover matrix in detail, there is a See Groups button on the main page and it leads to a page describing the matrix. In addition, summary information has been added to the category filtering buttons in the section where the tasks are added.",
     demoLink: "https://effervescent-longma-4868ea.netlify.app/",
     codeLink: "https://github.com/symys/todoapp",
+  },
+  {
+    title: "🛠️ Weather App (PWA)",
+    imgSrc: weathery,
+    description:
+      "*Currently I'm working on this project using NextJS. It will be a pwa...",
+    demoLink: "https://weathery-eight.vercel.app/",
+    codeLink: "https://github.com/symys/weatherpwa",
   },
   {
     title: "Random Advice App",
