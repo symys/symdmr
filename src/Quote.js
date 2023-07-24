@@ -2,19 +2,19 @@ import { useState, useEffect } from 'react'
 
 function Quote() {
 
-    let [quotes, setQuotes] = useState([])
+    let [quote, setQuote] = useState([])
 
     useEffect(() => {
         fetch("https://type.fit/api/quotes")
         .then(response => response.json())
-        .then (data => {setQuotes(data[Math.floor(Math.random() * 17)])})
+        .then (data => {setQuote(data[Math.floor(Math.random() * 17)])})
       },[])
 
     
   return (
     <div className='flex flex-col gap-4'>
-        <div>{quotes.text}</div>
-        <div>{quotes.author}</div>
+        <div>{quote.text}</div>
+        <div>{quote.author ? quote.author.split(",")[0] : ""}</div>
     </div>
   )
 }
