@@ -7,7 +7,7 @@ function Quote() {
     useEffect(() => {
         fetch("https://type.fit/api/quotes")
         .then(response => response.json())
-        .then (data => {setQuotes(data[Math.floor(Math.random()*1600)])})
+        .then (data => {setQuotes(data[Math.floor(Math.random() * 17)])})
       },[])
 
     
